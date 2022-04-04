@@ -1,4 +1,5 @@
 #pragma once
+#include "Orders_View.h"
 
 namespace GulinOOP2022 {
 
@@ -89,12 +90,20 @@ namespace GulinOOP2022 {
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Начало работы";
+			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void button_begin_Click(System::Object^  sender, System::EventArgs^  e) {
+			 Orders_View^ p_Orders_View = gcnew Orders_View(); //указатель на форму
+			 this->Hide(); //скрыть данную форму
+			 p_Orders_View -> ShowDialog(); //открыть форму
+			 this->Show(); //снова показать данную форму
+			 delete(p_Orders_View);
+			 }
+	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
 			 }
 	};
 }
