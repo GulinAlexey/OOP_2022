@@ -100,8 +100,9 @@ namespace GulinOOP2022 {
 			 Orders_View^ p_Orders_View = gcnew Orders_View(); //указатель на форму
 			 this->Hide(); //скрыть данную форму
 			 p_Orders_View -> ShowDialog(); //открыть форму
-			 this->Show(); //снова показать данную форму
+			 //this->Show(); //снова показать данную форму
 			 delete(p_Orders_View);
+			 this->Close(); //закрыть данную форму
 			 }
 	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
 			 }

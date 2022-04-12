@@ -86,34 +86,92 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Add_Order.cpp" />
+    <ClCompile Include="Add_Rate.cpp" />
+    <ClCompile Include="Add_Worker.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="classes.cpp" />
+    <ClCompile Include="Complete_the_Order.cpp" />
+    <ClCompile Include="Get_Cost.cpp" />
     <ClCompile Include="Gulin OOP 2022.cpp" />
     <ClCompile Include="Orders_View.cpp" />
+    <ClCompile Include="Rates_View.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Transactions_View.cpp" />
+    <ClCompile Include="Workers_View.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Add_Order.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Add_Rate.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Add_Worker.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="classes.h" />
+    <ClInclude Include="Complete_the_Order.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Get_Cost.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Orders_View.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Rates_View.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Transactions_View.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Workers_View.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Add_Order.resx">
+      <DependentUpon>Add_Order.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Rate.resx">
+      <DependentUpon>Add_Rate.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Worker.resx">
+      <DependentUpon>Add_Worker.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complete_the_Order.resx">
+      <DependentUpon>Complete_the_Order.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resX">
       <DependentUpon>Form1.h</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Get_Cost.resx">
+      <DependentUpon>Get_Cost.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Orders_View.resx">
       <DependentUpon>Orders_View.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rates_View.resx">
+      <DependentUpon>Rates_View.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions_View.resx">
+      <DependentUpon>Transactions_View.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workers_View.resx">
+      <DependentUpon>Workers_View.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
