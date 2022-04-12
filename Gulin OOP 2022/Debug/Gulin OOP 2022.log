@@ -1,4 +1,4 @@
-﻿Построение начато 13.04.2022 3:25:18.
+﻿Построение начато 13.04.2022 4:03:19.
      1>Проект "C:\Users\Алексей\Documents\GitHub\OOP_2022\Gulin OOP 2022\Gulin OOP 2022.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Debug\Gulin OOP 2022.unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -6,13 +6,46 @@
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
          Для всех выходных данных обновления не требуется.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Gulin OOP 2022.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Get_Cost.cpp "Gulin OOP 2022.cpp" Orders_View.cpp /clr:nostdlib 
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Gulin OOP 2022.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Add_Order.cpp Add_Rate.cpp Add_Worker.cpp Complete_the_Order.cpp Get_Cost.cpp "Gulin OOP 2022.cpp" Orders_View.cpp Rates_View.cpp Transactions_View.cpp Workers_View.cpp classes.cpp /clr:nostdlib 
+         Add_Order.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(531): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(558): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(609): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(610): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(617): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(620): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(623): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+         Add_Rate.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(277): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(278): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(279): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(280): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(281): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(286): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(287): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(288): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(289): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+         Add_Worker.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(393): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(401): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(403): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+         Complete_the_Order.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Complete_the_Order.h(109): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
          Get_Cost.cpp
-     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1632): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Get_Cost.h(122): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
          Gulin OOP 2022.cpp
-     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1632): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(531): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(558): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -37,7 +70,7 @@
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Complete_the_Order.h(109): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Get_Cost.h(122): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
          Orders_View.cpp
-     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1632): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(531): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Order.h(558): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -61,6 +94,30 @@
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(289): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Complete_the_Order.h(109): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
      1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Get_Cost.h(122): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+         Rates_View.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(277): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(278): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(279): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(280): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(281): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(286): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(287): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(288): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Rate.h(289): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+         Transactions_View.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+         Workers_View.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(393): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(401): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\Add_Worker.h(403): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+         classes.cpp
+     1>c:\users\алексей\documents\github\oop_2022\gulin oop 2022\classes.h(1636): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112): см. объявление "localtime"
          Создание кода...
          Для всех выходных данных обновления не требуется.
        CoreResGen:
@@ -93,4 +150,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:19.72
+Затраченное время: 00:01:04.36

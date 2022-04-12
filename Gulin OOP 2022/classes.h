@@ -1401,7 +1401,11 @@ public:
 	{
 		float count_price=0; //временное значение цены
 		if(its_rate!=NULL)
+		{
 			count_price = its_rate->get_cost(); //получить цену по тарифу
+			if(type_urgent==URGENCY_HIGH) //если заказ срочный, увеличить цену
+				count_price = count_price * its_rate->get_percent_increase();
+		}
 
 		if(execution_status == STATUS_STORING) //если посылка хранится
 		{
